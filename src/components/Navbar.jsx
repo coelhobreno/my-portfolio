@@ -1,11 +1,14 @@
 import styles from './Navbar.module.css'
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsClipboardCheckFill } from "react-icons/bs";
+
 
 const Navbar = () => {
     return(
+        
         <nav>
-            <h1>Logo</h1>
+            <h1><BsClipboardCheckFill/></h1>
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
