@@ -1,0 +1,141 @@
+.projects{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.projects h1{
+    margin-bottom: .5em;
+}
+
+.project_cont{
+    display: flex;
+    max-width: 950px;
+    margin-bottom: 2em;
+}
+
+.illustr_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.illustr_project img{
+    width: 580px;
+    height: 340px;
+    transition: .5s;
+    
+}
+
+.illustr_project img:hover{
+    scale: 1.02;
+}
+
+.links_list{
+    padding: .7em 0;
+    border-radius: 0 0 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #2b2b2b;
+    width: 100%;
+}
+
+.illustr_project .links_list a{
+    background-color: #404040;
+    border: 1px solid #404040;
+    display: flex;
+    margin: .5em 0;
+    padding: .6em;
+    border-radius: 50%;
+    transition: .3s;
+    font-size: 1.1em;
+}
+
+.links_list a:hover{
+    background-color: transparent;
+}
+
+.descript_project{
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+    padding: .2em .8em;
+}
+
+.descript_project .title{
+    display: flex;
+    align-items: center;
+}
+
+.descript_project .title svg{
+    color: green;
+    font-size: 10px;
+}
+
+.descript_project .title h2{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.point_project svg{
+    font-size: 10px;
+    color: red;
+    margin-right: 4px;
+    
+}
+
+.point_project span{
+    color: #AAA;
+}
+
+@media(max-width: 926px) {
+
+    .project_cont {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5em;
+        width: 580px;
+    }
+
+    .illustr_project{
+        margin-bottom: 2em;
+    }
+
+    .project_cont{
+        margin-bottom: 5em;
+    }
+
+}
+
+@media(max-width: 654px) {
+    .illustr_project{
+        display: none;
+        width: 80%;
+    }
+
+    .project_cont{
+        width: 80%;
+    }
+
+    .title{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+
+    .title svg{
+        display: none;
+    }
+
+    .point_project{
+        text-align: center;
+    }
+    
+}

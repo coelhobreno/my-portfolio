@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  color: #FFF;
+  background: #202020;
+}
+
+ul{
+  list-style: none;
+}
+
+a, button{
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
